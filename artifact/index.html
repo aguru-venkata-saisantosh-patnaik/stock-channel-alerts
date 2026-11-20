@@ -1,0 +1,101 @@
+<title>Sigma Channel Watch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+
+<main class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Sigma Channel Watch</h1>
+      <p class="sub">US stocks ≥ $50B · 2,500-day standard-deviation channel · buy at −3σ (top 10) or −4σ (others), take profit at the regression line</p>
+    </div>
+    <div class="meta" id="meta" aria-live="polite">Loading the latest stored scan…</div>
+  </header>
+
+  <section class="summary" id="summary" aria-label="Signal counts"></section>
+
+  <section class="detail" id="detail" aria-label="Selected stock">
+    <div class="detail-head">
+      <div>
+        <div class="d-ticker" id="d-ticker">—</div>
+        <div class="d-name" id="d-name"></div>
+      </div>
+      <div class="d-actions">
+        <button type="button" id="copy-prompt" class="btn">Copy fundamental-check prompt</button>
+        <a id="tv-link" class="btn ghost" href="https://www.tradingview.com/" target="_blank" rel="noopener">Open in TradingView</a>
+      </div>
+    </div>
+    <dl class="facts" id="facts"></dl>
+    <div class="chart" id="chart" role="img" aria-label="Weekly price with standard-deviation channel"></div>
+    <div class="legend">
+      <span><i class="sw price"></i>Weekly close</span>
+      <span><i class="sw reg"></i>Regression (take profit)</span>
+      <span><i class="sw up"></i>+1σ / +2σ</span>
+      <span><i class="sw m3"></i>−3σ</span>
+      <span><i class="sw m4"></i>−4σ</span>
+    </div>
+    <p class="toast" id="toast" hidden></p>
+  </section>
+
+  <section class="list" aria-label="Watchlist">
+    <div class="toolbar">
+      <div class="chips" role="tablist" id="chips"></div>
+      <input id="search" type="search" placeholder="Search ticker or company" aria-label="Search ticker or company">
+    </div>
+    <div class="table-scroll">
+      <table id="table">
+        <thead>
+          <tr>
+            <th data-k="ticker">Stock</th>
+            <th data-k="tier" class="hide-s">Tier</th>
+            <th data-k="price" class="num">Price</th>
+            <th data-k="z" class="gauge-col">Position in channel</th>
+            <th data-k="buy_line" class="num hide-s">Buy line</th>
+            <th data-k="dist_to_buy_pct" class="num">To buy</th>
+            <th data-k="upside_to_reg_pct" class="num hide-s">To target</th>
+            <th data-k="status">Status</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>This copy is refreshed once each US trading day after the close by a Claude scheduled task. Buy and sell alerts come from the GitHub Actions scan, which runs every 10 minutes during market hours. The live dashboard is at
+      <a href="https://aguru-venkata-saisantosh-patnaik.github.io/stock-channel-alerts/" target="_blank" rel="noopener">GitHub Pages</a>.
+      Before any buy, run the fundamental check: is the drop temporary, and is the company safe from bankruptcy? Automated tool for your own rules. Not financial advice.</p>
+  </footer>
+</main>
+
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+<script src="app.js"></script>
+<script>
+(function () {
+  let latest = null, resolveFirst, rejectFirst;
+  const first = new Promise((res, rej) => { resolveFirst = res; rejectFirst = rej; });
+  const timer = setTimeout(() => rejectFirst(new Error("no scan is stored yet, or the data can't be reached right now")), 10000);
+
+  SigmaApp.start({
+    load: () => latest ? Promise.resolve(latest) : first,
+    loadChart: t => Promise.resolve((latest && latest.series && latest.series[t]) || null),
+    noChartText: "This daily copy keeps charts only for the stocks closest to their buy line. Use the live dashboard or TradingView for this one.",
+    refreshMs: 0,
+  });
+
+  (async () => {
+    const db = window.claude ? await window.claude.use("db") : null;
+    if (!db) { clearTimeout(timer); rejectFirst(new Error("stored data is not available in this view")); return; }
+    db.doc("feed/latest").onSnapshot(snap => {
+      if (!snap.exists) return;
+      const d = snap.data();
+      latest = Object.assign({}, d, { stocks: d.rows || [] });
+      clearTimeout(timer);
+      resolveFirst(latest);
+      SigmaApp.refresh();
+    }, err => { clearTimeout(timer); rejectFirst(new Error(err && err.message || "the data store is unavailable")); });
+  })();
+})();
+</script>

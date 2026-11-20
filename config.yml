@@ -1,0 +1,12 @@
+# Strategy settings (from the Revelio Trading "standard deviation channel" video)
+length: 2500            # daily bars in the regression channel (~10 years)
+min_market_cap: 50000000000 # watchlist: US primary listings with market cap >= $50B
+top_n: 10               # the top-N by market cap are "top tier" and buy at -3 sigma
+buy_sigma_top: 3        # top tier buys at or below -3 sigma
+buy_sigma_other: 4      # everyone else waits for -4 sigma
+near_sigma: 0.5         # "NEAR" = within this many sigma above the buy line
+rearm_sigma: 0.5        # a BUY alert re-arms only after price climbs this far back above the buy line
+tp_rearm_sigma: 0.5     # a TAKE-PROFIT alert re-arms after price falls this far back below the regression line
+recheck_days: 90        # remind to re-run the fundamental check on each holding this often
+universe_max_age_days: 7
+post_close_minutes: 30  # keep scanning this long after the close to capture the final bar
