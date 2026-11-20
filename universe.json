@@ -1,0 +1,2183 @@
+{
+ "fetched_at": 1795203234.0691059,
+ "stocks": [
+  {
+   "ticker": "AAPL",
+   "tv_symbol": "NASDAQ:AAPL",
+   "name": "Apple Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 5005246539097.122,
+   "rank": 1,
+   "tier": "top"
+  },
+  {
+   "ticker": "MSFT",
+   "tv_symbol": "NASDAQ:MSFT",
+   "name": "Microsoft Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 3634045240238.33,
+   "rank": 2,
+   "tier": "top"
+  },
+  {
+   "ticker": "GOOGL",
+   "tv_symbol": "NASDAQ:GOOGL",
+   "name": "Alphabet Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 3308055976153.6123,
+   "rank": 3,
+   "tier": "top"
+  },
+  {
+   "ticker": "NVDA",
+   "tv_symbol": "NASDAQ:NVDA",
+   "name": "NVIDIA Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 3185296906774.79,
+   "rank": 4,
+   "tier": "top"
+  },
+  {
+   "ticker": "AMZN",
+   "tv_symbol": "NASDAQ:AMZN",
+   "name": "Amazon.com, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 2689443556554.065,
+   "rank": 5,
+   "tier": "top"
+  },
+  {
+   "ticker": "SPCX",
+   "tv_symbol": "NASDAQ:SPCX",
+   "name": "Space Exploration Technologies Corp",
+   "exchange": "NASDAQ",
+   "market_cap": 1760241639068.5103,
+   "rank": 6,
+   "tier": "top"
+  },
+  {
+   "ticker": "AVGO",
+   "tv_symbol": "NASDAQ:AVGO",
+   "name": "Broadcom Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 1459871465057.5295,
+   "rank": 7,
+   "tier": "top"
+  },
+  {
+   "ticker": "META",
+   "tv_symbol": "NASDAQ:META",
+   "name": "Meta Platforms, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 1444442280183.9336,
+   "rank": 8,
+   "tier": "top"
+  },
+  {
+   "ticker": "TSLA",
+   "tv_symbol": "NASDAQ:TSLA",
+   "name": "Tesla, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 1380571914429.9185,
+   "rank": 9,
+   "tier": "top"
+  },
+  {
+   "ticker": "LLY",
+   "tv_symbol": "NYSE:LLY",
+   "name": "Eli Lilly and Company",
+   "exchange": "NYSE",
+   "market_cap": 1272983196717.062,
+   "rank": 10,
+   "tier": "top"
+  },
+  {
+   "ticker": "BRK-A",
+   "tv_symbol": "NYSE:BRK.A",
+   "name": "Berkshire Hathaway Inc.",
+   "exchange": "NYSE",
+   "market_cap": 1209441289387.9958,
+   "rank": 11,
+   "tier": "other"
+  },
+  {
+   "ticker": "ANT",
+   "tv_symbol": "NASDAQ:ANT",
+   "name": "Anthropic, PBC Class A",
+   "exchange": "NASDAQ",
+   "market_cap": 1154735731739.316,
+   "rank": 12,
+   "tier": "other"
+  },
+  {
+   "ticker": "WMT",
+   "tv_symbol": "NASDAQ:WMT",
+   "name": "Walmart Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 1024008615758.6829,
+   "rank": 13,
+   "tier": "other"
+  },
+  {
+   "ticker": "JPM",
+   "tv_symbol": "NYSE:JPM",
+   "name": "JP Morgan Chase & Co.",
+   "exchange": "NYSE",
+   "market_cap": 832374282196.5883,
+   "rank": 14,
+   "tier": "other"
+  },
+  {
+   "ticker": "V",
+   "tv_symbol": "NYSE:V",
+   "name": "Visa Inc.",
+   "exchange": "NYSE",
+   "market_cap": 753381926650.9806,
+   "rank": 15,
+   "tier": "other"
+  },
+  {
+   "ticker": "AMD",
+   "tv_symbol": "NASDAQ:AMD",
+   "name": "Advanced Micro Devices, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 703408836710.5118,
+   "rank": 16,
+   "tier": "other"
+  },
+  {
+   "ticker": "MU",
+   "tv_symbol": "NASDAQ:MU",
+   "name": "Micron Technology, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 683187284004.1086,
+   "rank": 17,
+   "tier": "other"
+  },
+  {
+   "ticker": "XOM",
+   "tv_symbol": "NYSE:XOM",
+   "name": "ExxonMobil Holdings Corporation",
+   "exchange": "NYSE",
+   "market_cap": 657713395305.591,
+   "rank": 18,
+   "tier": "other"
+  },
+  {
+   "ticker": "JNJ",
+   "tv_symbol": "NYSE:JNJ",
+   "name": "Johnson & Johnson",
+   "exchange": "NYSE",
+   "market_cap": 655534704483.5972,
+   "rank": 19,
+   "tier": "other"
+  },
+  {
+   "ticker": "MA",
+   "tv_symbol": "NYSE:MA",
+   "name": "Mastercard Incorporated",
+   "exchange": "NYSE",
+   "market_cap": 549755683895.19037,
+   "rank": 20,
+   "tier": "other"
+  },
+  {
+   "ticker": "ABBV",
+   "tv_symbol": "NYSE:ABBV",
+   "name": "AbbVie Inc.",
+   "exchange": "NYSE",
+   "market_cap": 510505430026.99255,
+   "rank": 21,
+   "tier": "other"
+  },
+  {
+   "ticker": "COST",
+   "tv_symbol": "NASDAQ:COST",
+   "name": "Costco Wholesale Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 491866893480.02814,
+   "rank": 22,
+   "tier": "other"
+  },
+  {
+   "ticker": "KO",
+   "tv_symbol": "NYSE:KO",
+   "name": "Coca-Cola Company (The)",
+   "exchange": "NYSE",
+   "market_cap": 419672067150.40735,
+   "rank": 23,
+   "tier": "other"
+  },
+  {
+   "ticker": "CVX",
+   "tv_symbol": "NYSE:CVX",
+   "name": "Chevron Corporation",
+   "exchange": "NYSE",
+   "market_cap": 412669752722.92004,
+   "rank": 24,
+   "tier": "other"
+  },
+  {
+   "ticker": "PG",
+   "tv_symbol": "NYSE:PG",
+   "name": "Procter & Gamble Company (The)",
+   "exchange": "NYSE",
+   "market_cap": 394706904928.70624,
+   "rank": 25,
+   "tier": "other"
+  },
+  {
+   "ticker": "CSCO",
+   "tv_symbol": "NASDAQ:CSCO",
+   "name": "Cisco Systems, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 360300333242.8781,
+   "rank": 26,
+   "tier": "other"
+  },
+  {
+   "ticker": "PLTR",
+   "tv_symbol": "NASDAQ:PLTR",
+   "name": "Palantir Technologies Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 351907067145.30133,
+   "rank": 27,
+   "tier": "other"
+  },
+  {
+   "ticker": "HD",
+   "tv_symbol": "NYSE:HD",
+   "name": "Home Depot, Inc. (The)",
+   "exchange": "NYSE",
+   "market_cap": 341120056102.977,
+   "rank": 28,
+   "tier": "other"
+  },
+  {
+   "ticker": "MRK",
+   "tv_symbol": "NYSE:MRK",
+   "name": "Merck & Company, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 332512354082.8841,
+   "rank": 29,
+   "tier": "other"
+  },
+  {
+   "ticker": "BAC",
+   "tv_symbol": "NYSE:BAC",
+   "name": "Bank of America Corporation",
+   "exchange": "NYSE",
+   "market_cap": 329139966486.3187,
+   "rank": 30,
+   "tier": "other"
+  },
+  {
+   "ticker": "GE",
+   "tv_symbol": "NYSE:GE",
+   "name": "GE Aerospace",
+   "exchange": "NYSE",
+   "market_cap": 323358763857.85535,
+   "rank": 31,
+   "tier": "other"
+  },
+  {
+   "ticker": "UNH",
+   "tv_symbol": "NYSE:UNH",
+   "name": "UnitedHealth Group Incorporated",
+   "exchange": "NYSE",
+   "market_cap": 308805254308.4183,
+   "rank": 32,
+   "tier": "other"
+  },
+  {
+   "ticker": "ORCL",
+   "tv_symbol": "NYSE:ORCL",
+   "name": "Oracle Corporation",
+   "exchange": "NYSE",
+   "market_cap": 308693215961.6123,
+   "rank": 33,
+   "tier": "other"
+  },
+  {
+   "ticker": "PM",
+   "tv_symbol": "NYSE:PM",
+   "name": "Philip Morris International Inc",
+   "exchange": "NYSE",
+   "market_cap": 289348821577.0517,
+   "rank": 34,
+   "tier": "other"
+  },
+  {
+   "ticker": "PANW",
+   "tv_symbol": "NASDAQ:PANW",
+   "name": "Palo Alto Networks, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 285929678684.3651,
+   "rank": 35,
+   "tier": "other"
+  },
+  {
+   "ticker": "INTC",
+   "tv_symbol": "NASDAQ:INTC",
+   "name": "Intel Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 281057206157.31226,
+   "rank": 36,
+   "tier": "other"
+  },
+  {
+   "ticker": "MS",
+   "tv_symbol": "NYSE:MS",
+   "name": "Morgan Stanley",
+   "exchange": "NYSE",
+   "market_cap": 262450681952.49646,
+   "rank": 37,
+   "tier": "other"
+  },
+  {
+   "ticker": "RTX",
+   "tv_symbol": "NYSE:RTX",
+   "name": "RTX Corporation",
+   "exchange": "NYSE",
+   "market_cap": 259423202147.29434,
+   "rank": 38,
+   "tier": "other"
+  },
+  {
+   "ticker": "TMO",
+   "tv_symbol": "NYSE:TMO",
+   "name": "Thermo Fisher Scientific Inc",
+   "exchange": "NYSE",
+   "market_cap": 250528010078.5123,
+   "rank": 39,
+   "tier": "other"
+  },
+  {
+   "ticker": "TXN",
+   "tv_symbol": "NASDAQ:TXN",
+   "name": "Texas Instruments Incorporated",
+   "exchange": "NASDAQ",
+   "market_cap": 245283368261.07632,
+   "rank": 40,
+   "tier": "other"
+  },
+  {
+   "ticker": "AMAT",
+   "tv_symbol": "NASDAQ:AMAT",
+   "name": "Applied Materials, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 243666223508.4456,
+   "rank": 41,
+   "tier": "other"
+  },
+  {
+   "ticker": "WFC",
+   "tv_symbol": "NYSE:WFC",
+   "name": "Wells Fargo & Company",
+   "exchange": "NYSE",
+   "market_cap": 239307511059.57675,
+   "rank": 42,
+   "tier": "other"
+  },
+  {
+   "ticker": "NFLX",
+   "tv_symbol": "NASDAQ:NFLX",
+   "name": "Netflix, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 236647573578.7246,
+   "rank": 43,
+   "tier": "other"
+  },
+  {
+   "ticker": "AMGN",
+   "tv_symbol": "NASDAQ:AMGN",
+   "name": "Amgen Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 236581170833.86615,
+   "rank": 44,
+   "tier": "other"
+  },
+  {
+   "ticker": "CRWD",
+   "tv_symbol": "NASDAQ:CRWD",
+   "name": "CrowdStrike Holdings, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 236429115013.93616,
+   "rank": 45,
+   "tier": "other"
+  },
+  {
+   "ticker": "CAT",
+   "tv_symbol": "NYSE:CAT",
+   "name": "Caterpillar, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 236150624905.23746,
+   "rank": 46,
+   "tier": "other"
+  },
+  {
+   "ticker": "LIN",
+   "tv_symbol": "NASDAQ:LIN",
+   "name": "Linde plc",
+   "exchange": "NASDAQ",
+   "market_cap": 232948283054.05078,
+   "rank": 47,
+   "tier": "other"
+  },
+  {
+   "ticker": "LRCX",
+   "tv_symbol": "NASDAQ:LRCX",
+   "name": "Lam Research Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 231665003277.88754,
+   "rank": 48,
+   "tier": "other"
+  },
+  {
+   "ticker": "GS",
+   "tv_symbol": "NYSE:GS",
+   "name": "Goldman Sachs Group, Inc. (The)",
+   "exchange": "NYSE",
+   "market_cap": 230973446410.51184,
+   "rank": 49,
+   "tier": "other"
+  },
+  {
+   "ticker": "IBM",
+   "tv_symbol": "NYSE:IBM",
+   "name": "International Business Machines Corporation",
+   "exchange": "NYSE",
+   "market_cap": 214740899055.59592,
+   "rank": 50,
+   "tier": "other"
+  },
+  {
+   "ticker": "ANET",
+   "tv_symbol": "NYSE:ANET",
+   "name": "Arista Networks, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 212529538160.55432,
+   "rank": 51,
+   "tier": "other"
+  },
+  {
+   "ticker": "GILD",
+   "tv_symbol": "NASDAQ:GILD",
+   "name": "Gilead Sciences, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 208476114233.63095,
+   "rank": 52,
+   "tier": "other"
+  },
+  {
+   "ticker": "AXP",
+   "tv_symbol": "NYSE:AXP",
+   "name": "American Express Company",
+   "exchange": "NYSE",
+   "market_cap": 205281103832.2842,
+   "rank": 53,
+   "tier": "other"
+  },
+  {
+   "ticker": "BABA",
+   "tv_symbol": "NYSE:BABA",
+   "name": "Alibaba Group Holding Limited",
+   "exchange": "NYSE",
+   "market_cap": 204331510196.5599,
+   "rank": 54,
+   "tier": "other"
+  },
+  {
+   "ticker": "DIS",
+   "tv_symbol": "NYSE:DIS",
+   "name": "Walt Disney Company (The)",
+   "exchange": "NYSE",
+   "market_cap": 202290493147.50027,
+   "rank": 55,
+   "tier": "other"
+  },
+  {
+   "ticker": "MCD",
+   "tv_symbol": "NYSE:MCD",
+   "name": "McDonald's Corporation",
+   "exchange": "NYSE",
+   "market_cap": 194316726200.0,
+   "rank": 56,
+   "tier": "other"
+  },
+  {
+   "ticker": "VZ",
+   "tv_symbol": "NYSE:VZ",
+   "name": "Verizon Communications Inc.",
+   "exchange": "NYSE",
+   "market_cap": 192868881732.8059,
+   "rank": 57,
+   "tier": "other"
+  },
+  {
+   "ticker": "PEP",
+   "tv_symbol": "NASDAQ:PEP",
+   "name": "PepsiCo, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 192609825500.957,
+   "rank": 58,
+   "tier": "other"
+  },
+  {
+   "ticker": "ARM",
+   "tv_symbol": "NASDAQ:ARM",
+   "name": "Arm Holdings plc",
+   "exchange": "NASDAQ",
+   "market_cap": 188518675172.0,
+   "rank": 59,
+   "tier": "other"
+  },
+  {
+   "ticker": "GEV",
+   "tv_symbol": "NYSE:GEV",
+   "name": "GE Vernova Inc.",
+   "exchange": "NYSE",
+   "market_cap": 186242669357.03793,
+   "rank": 60,
+   "tier": "other"
+  },
+  {
+   "ticker": "C",
+   "tv_symbol": "NYSE:C",
+   "name": "Citigroup, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 184307015534.54544,
+   "rank": 61,
+   "tier": "other"
+  },
+  {
+   "ticker": "BLK",
+   "tv_symbol": "NYSE:BLK",
+   "name": "BlackRock, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 180268196206.0786,
+   "rank": 62,
+   "tier": "other"
+  },
+  {
+   "ticker": "ABT",
+   "tv_symbol": "NYSE:ABT",
+   "name": "Abbott Laboratories",
+   "exchange": "NYSE",
+   "market_cap": 180260491739.19937,
+   "rank": 63,
+   "tier": "other"
+  },
+  {
+   "ticker": "DELL",
+   "tv_symbol": "NYSE:DELL",
+   "name": "Dell Technologies Inc.",
+   "exchange": "NYSE",
+   "market_cap": 178761941150.49072,
+   "rank": 64,
+   "tier": "other"
+  },
+  {
+   "ticker": "WELL",
+   "tv_symbol": "NYSE:WELL",
+   "name": "Welltower Inc.",
+   "exchange": "NYSE",
+   "market_cap": 178545970317.4224,
+   "rank": 65,
+   "tier": "other"
+  },
+  {
+   "ticker": "NEE",
+   "tv_symbol": "NYSE:NEE",
+   "name": "NextEra Energy, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 176687538166.65665,
+   "rank": 66,
+   "tier": "other"
+  },
+  {
+   "ticker": "TMUS",
+   "tv_symbol": "NASDAQ:TMUS",
+   "name": "T-Mobile US, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 176601923712.46268,
+   "rank": 67,
+   "tier": "other"
+  },
+  {
+   "ticker": "APH",
+   "tv_symbol": "NYSE:APH",
+   "name": "Amphenol Corporation",
+   "exchange": "NYSE",
+   "market_cap": 173366832390.82172,
+   "rank": 68,
+   "tier": "other"
+  },
+  {
+   "ticker": "UNP",
+   "tv_symbol": "NYSE:UNP",
+   "name": "Union Pacific Corporation",
+   "exchange": "NYSE",
+   "market_cap": 172172179178.4935,
+   "rank": 69,
+   "tier": "other"
+  },
+  {
+   "ticker": "ADI",
+   "tv_symbol": "NASDAQ:ADI",
+   "name": "Analog Devices, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 171216360816.50916,
+   "rank": 70,
+   "tier": "other"
+  },
+  {
+   "ticker": "KLAC",
+   "tv_symbol": "NASDAQ:KLAC",
+   "name": "KLA Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 167222189667.20233,
+   "rank": 71,
+   "tier": "other"
+  },
+  {
+   "ticker": "QCOM",
+   "tv_symbol": "NASDAQ:QCOM",
+   "name": "QUALCOMM Incorporated",
+   "exchange": "NASDAQ",
+   "market_cap": 165593194385.0424,
+   "rank": 72,
+   "tier": "other"
+  },
+  {
+   "ticker": "DE",
+   "tv_symbol": "NYSE:DE",
+   "name": "Deere & Company",
+   "exchange": "NYSE",
+   "market_cap": 164228832996.86362,
+   "rank": 73,
+   "tier": "other"
+  },
+  {
+   "ticker": "SHOP",
+   "tv_symbol": "NASDAQ:SHOP",
+   "name": "Shopify Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 162635683136.47614,
+   "rank": 74,
+   "tier": "other"
+  },
+  {
+   "ticker": "COP",
+   "tv_symbol": "NYSE:COP",
+   "name": "ConocoPhillips",
+   "exchange": "NYSE",
+   "market_cap": 161962161215.0598,
+   "rank": 75,
+   "tier": "other"
+  },
+  {
+   "ticker": "SCHW",
+   "tv_symbol": "NYSE:SCHW",
+   "name": "Charles Schwab Corporation (The)",
+   "exchange": "NYSE",
+   "market_cap": 157515466524.97375,
+   "rank": 76,
+   "tier": "other"
+  },
+  {
+   "ticker": "PFE",
+   "tv_symbol": "NYSE:PFE",
+   "name": "Pfizer, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 157429389350.03906,
+   "rank": 77,
+   "tier": "other"
+  },
+  {
+   "ticker": "DHR",
+   "tv_symbol": "NYSE:DHR",
+   "name": "Danaher Corporation",
+   "exchange": "NYSE",
+   "market_cap": 156813501055.06967,
+   "rank": 78,
+   "tier": "other"
+  },
+  {
+   "ticker": "TJX",
+   "tv_symbol": "NYSE:TJX",
+   "name": "TJX Companies, Inc. (The)",
+   "exchange": "NYSE",
+   "market_cap": 154771845598.15338,
+   "rank": 79,
+   "tier": "other"
+  },
+  {
+   "ticker": "CRM",
+   "tv_symbol": "NYSE:CRM",
+   "name": "Salesforce, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 151308547985.0818,
+   "rank": 80,
+   "tier": "other"
+  },
+  {
+   "ticker": "T",
+   "tv_symbol": "NYSE:T",
+   "name": "AT&T Inc.",
+   "exchange": "NYSE",
+   "market_cap": 150762282534.7304,
+   "rank": 81,
+   "tier": "other"
+  },
+  {
+   "ticker": "CB",
+   "tv_symbol": "NYSE:CB",
+   "name": "Chubb Limited",
+   "exchange": "NYSE",
+   "market_cap": 143294986359.95917,
+   "rank": 82,
+   "tier": "other"
+  },
+  {
+   "ticker": "ISRG",
+   "tv_symbol": "NASDAQ:ISRG",
+   "name": "Intuitive Surgical, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 140388964861.82635,
+   "rank": 83,
+   "tier": "other"
+  },
+  {
+   "ticker": "BX",
+   "tv_symbol": "NYSE:BX",
+   "name": "Blackstone Inc.",
+   "exchange": "NYSE",
+   "market_cap": 138576933531.55945,
+   "rank": 84,
+   "tier": "other"
+  },
+  {
+   "ticker": "PGR",
+   "tv_symbol": "NYSE:PGR",
+   "name": "Progressive Corporation (The)",
+   "exchange": "NYSE",
+   "market_cap": 135415775315.2367,
+   "rank": 85,
+   "tier": "other"
+  },
+  {
+   "ticker": "ACN",
+   "tv_symbol": "NYSE:ACN",
+   "name": "Accenture plc",
+   "exchange": "NYSE",
+   "market_cap": 132776723934.05711,
+   "rank": 86,
+   "tier": "other"
+  },
+  {
+   "ticker": "UBER",
+   "tv_symbol": "NYSE:UBER",
+   "name": "Uber Technologies, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 132488553273.98607,
+   "rank": 87,
+   "tier": "other"
+  },
+  {
+   "ticker": "VRTX",
+   "tv_symbol": "NASDAQ:VRTX",
+   "name": "Vertex Pharmaceuticals Incorporated",
+   "exchange": "NASDAQ",
+   "market_cap": 132027201522.86981,
+   "rank": 88,
+   "tier": "other"
+  },
+  {
+   "ticker": "LMT",
+   "tv_symbol": "NYSE:LMT",
+   "name": "Lockheed Martin Corporation",
+   "exchange": "NYSE",
+   "market_cap": 131644917866.2443,
+   "rank": 89,
+   "tier": "other"
+  },
+  {
+   "ticker": "SPGI",
+   "tv_symbol": "NYSE:SPGI",
+   "name": "S&P Global Inc.",
+   "exchange": "NYSE",
+   "market_cap": 129331635847.16261,
+   "rank": 90,
+   "tier": "other"
+  },
+  {
+   "ticker": "MDT",
+   "tv_symbol": "NYSE:MDT",
+   "name": "Medtronic plc.",
+   "exchange": "NYSE",
+   "market_cap": 128914745509.03867,
+   "rank": 91,
+   "tier": "other"
+  },
+  {
+   "ticker": "MO",
+   "tv_symbol": "NYSE:MO",
+   "name": "Altria Group, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 125090454613.15479,
+   "rank": 92,
+   "tier": "other"
+  },
+  {
+   "ticker": "LOW",
+   "tv_symbol": "NYSE:LOW",
+   "name": "Lowe's Companies, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 125033692413.06197,
+   "rank": 93,
+   "tier": "other"
+  },
+  {
+   "ticker": "MCK",
+   "tv_symbol": "NYSE:MCK",
+   "name": "McKesson Corporation",
+   "exchange": "NYSE",
+   "market_cap": 124840986790.58098,
+   "rank": 94,
+   "tier": "other"
+  },
+  {
+   "ticker": "BA",
+   "tv_symbol": "NYSE:BA",
+   "name": "Boeing Company (The)",
+   "exchange": "NYSE",
+   "market_cap": 124703882298.84839,
+   "rank": 95,
+   "tier": "other"
+  },
+  {
+   "ticker": "PDD",
+   "tv_symbol": "NASDAQ:PDD",
+   "name": "PDD Holdings Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 122412095732.0,
+   "rank": 96,
+   "tier": "other"
+  },
+  {
+   "ticker": "IBKR",
+   "tv_symbol": "NASDAQ:IBKR",
+   "name": "Interactive Brokers Group, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 122291806479.95999,
+   "rank": 97,
+   "tier": "other"
+  },
+  {
+   "ticker": "SPOT",
+   "tv_symbol": "NYSE:SPOT",
+   "name": "Spotify Technology S.A.",
+   "exchange": "NYSE",
+   "market_cap": 121242045825.58092,
+   "rank": 98,
+   "tier": "other"
+  },
+  {
+   "ticker": "ETN",
+   "tv_symbol": "NYSE:ETN",
+   "name": "Eaton Corporation, PLC",
+   "exchange": "NYSE",
+   "market_cap": 120831272676.74591,
+   "rank": 99,
+   "tier": "other"
+  },
+  {
+   "ticker": "BMY",
+   "tv_symbol": "NYSE:BMY",
+   "name": "Bristol-Myers Squibb Company",
+   "exchange": "NYSE",
+   "market_cap": 120785031149.58109,
+   "rank": 100,
+   "tier": "other"
+  },
+  {
+   "ticker": "ADP",
+   "tv_symbol": "NASDAQ:ADP",
+   "name": "Automatic Data Processing, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 120054238804.07648,
+   "rank": 101,
+   "tier": "other"
+  },
+  {
+   "ticker": "PLD",
+   "tv_symbol": "NYSE:PLD",
+   "name": "Prologis, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 119825668538.18921,
+   "rank": 102,
+   "tier": "other"
+  },
+  {
+   "ticker": "SYK",
+   "tv_symbol": "NYSE:SYK",
+   "name": "Stryker Corporation",
+   "exchange": "NYSE",
+   "market_cap": 119331398726.41351,
+   "rank": 103,
+   "tier": "other"
+  },
+  {
+   "ticker": "SBUX",
+   "tv_symbol": "NASDAQ:SBUX",
+   "name": "Starbucks Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 118558997846.32515,
+   "rank": 104,
+   "tier": "other"
+  },
+  {
+   "ticker": "APP",
+   "tv_symbol": "NASDAQ:APP",
+   "name": "Applovin Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 116734675327.64029,
+   "rank": 105,
+   "tier": "other"
+  },
+  {
+   "ticker": "SCCO",
+   "tv_symbol": "NYSE:SCCO",
+   "name": "Southern Copper Corporation",
+   "exchange": "NYSE",
+   "market_cap": 115177539819.04536,
+   "rank": 106,
+   "tier": "other"
+  },
+  {
+   "ticker": "CME",
+   "tv_symbol": "NASDAQ:CME",
+   "name": "CME Group Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 111045410269.69072,
+   "rank": 107,
+   "tier": "other"
+  },
+  {
+   "ticker": "PH",
+   "tv_symbol": "NYSE:PH",
+   "name": "Parker-Hannifin Corporation",
+   "exchange": "NYSE",
+   "market_cap": 110641110668.0222,
+   "rank": 108,
+   "tier": "other"
+  },
+  {
+   "ticker": "SO",
+   "tv_symbol": "NYSE:SO",
+   "name": "Southern Company (The)",
+   "exchange": "NYSE",
+   "market_cap": 109289179858.6944,
+   "rank": 109,
+   "tier": "other"
+  },
+  {
+   "ticker": "BKNG",
+   "tv_symbol": "NASDAQ:BKNG",
+   "name": "Booking Holdings Inc. Common Stock",
+   "exchange": "NASDAQ",
+   "market_cap": 109264590571.04724,
+   "rank": 110,
+   "tier": "other"
+  },
+  {
+   "ticker": "MRVL",
+   "tv_symbol": "NASDAQ:MRVL",
+   "name": "Marvell Technology, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 108915368492.46373,
+   "rank": 111,
+   "tier": "other"
+  },
+  {
+   "ticker": "COF",
+   "tv_symbol": "NYSE:COF",
+   "name": "Capital One Financial Corporation",
+   "exchange": "NYSE",
+   "market_cap": 108874487762.20839,
+   "rank": 112,
+   "tier": "other"
+  },
+  {
+   "ticker": "STX",
+   "tv_symbol": "NASDAQ:STX",
+   "name": "Seagate Technology Holdings PLC",
+   "exchange": "NASDAQ",
+   "market_cap": 106403873757.9348,
+   "rank": 113,
+   "tier": "other"
+  },
+  {
+   "ticker": "MAR",
+   "tv_symbol": "NASDAQ:MAR",
+   "name": "Marriott International",
+   "exchange": "NASDAQ",
+   "market_cap": 105262648568.81305,
+   "rank": 114,
+   "tier": "other"
+  },
+  {
+   "ticker": "CVS",
+   "tv_symbol": "NYSE:CVS",
+   "name": "CVS Health Corporation",
+   "exchange": "NYSE",
+   "market_cap": 104648199545.14319,
+   "rank": 115,
+   "tier": "other"
+  },
+  {
+   "ticker": "ABNB",
+   "tv_symbol": "NASDAQ:ABNB",
+   "name": "Airbnb, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 102256783282.9708,
+   "rank": 116,
+   "tier": "other"
+  },
+  {
+   "ticker": "DUK",
+   "tv_symbol": "NYSE:DUK",
+   "name": "Duke Energy Corporation (Holding Company)",
+   "exchange": "NYSE",
+   "market_cap": 101883688194.83646,
+   "rank": 117,
+   "tier": "other"
+  },
+  {
+   "ticker": "MPC",
+   "tv_symbol": "NYSE:MPC",
+   "name": "Marathon Petroleum Corporation",
+   "exchange": "NYSE",
+   "market_cap": 101482356619.0423,
+   "rank": 118,
+   "tier": "other"
+  },
+  {
+   "ticker": "HCA",
+   "tv_symbol": "NYSE:HCA",
+   "name": "HCA Healthcare, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 99942525660.81229,
+   "rank": 119,
+   "tier": "other"
+  },
+  {
+   "ticker": "NEM",
+   "tv_symbol": "NYSE:NEM",
+   "name": "Newmont Corporation",
+   "exchange": "NYSE",
+   "market_cap": 99783337689.90785,
+   "rank": 120,
+   "tier": "other"
+  },
+  {
+   "ticker": "MRSH",
+   "tv_symbol": "NYSE:MRSH",
+   "name": "Marsh",
+   "exchange": "NYSE",
+   "market_cap": 99087674263.06772,
+   "rank": 121,
+   "tier": "other"
+  },
+  {
+   "ticker": "NET",
+   "tv_symbol": "NYSE:NET",
+   "name": "Cloudflare, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 98151166512.70808,
+   "rank": 122,
+   "tier": "other"
+  },
+  {
+   "ticker": "EQIX",
+   "tv_symbol": "NASDAQ:EQIX",
+   "name": "Equinix, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 97492604722.14633,
+   "rank": 123,
+   "tier": "other"
+  },
+  {
+   "ticker": "WDC",
+   "tv_symbol": "NASDAQ:WDC",
+   "name": "Western Digital Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 96908551671.60268,
+   "rank": 124,
+   "tier": "other"
+  },
+  {
+   "ticker": "WM",
+   "tv_symbol": "NYSE:WM",
+   "name": "Waste Management, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 96215720422.03856,
+   "rank": 125,
+   "tier": "other"
+  },
+  {
+   "ticker": "BNY",
+   "tv_symbol": "NYSE:BNY",
+   "name": "The Bank of New York Mellon Corporation",
+   "exchange": "NYSE",
+   "market_cap": 96150467671.33707,
+   "rank": 126,
+   "tier": "other"
+  },
+  {
+   "ticker": "ICE",
+   "tv_symbol": "NYSE:ICE",
+   "name": "Intercontinental Exchange Inc.",
+   "exchange": "NYSE",
+   "market_cap": 96134834945.00037,
+   "rank": 127,
+   "tier": "other"
+  },
+  {
+   "ticker": "REGN",
+   "tv_symbol": "NASDAQ:REGN",
+   "name": "Regeneron Pharmaceuticals, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 95390013452.18121,
+   "rank": 128,
+   "tier": "other"
+  },
+  {
+   "ticker": "VLO",
+   "tv_symbol": "NYSE:VLO",
+   "name": "Valero Energy Corporation",
+   "exchange": "NYSE",
+   "market_cap": 94734239245.62036,
+   "rank": 129,
+   "tier": "other"
+  },
+  {
+   "ticker": "PSX",
+   "tv_symbol": "NYSE:PSX",
+   "name": "Phillips 66",
+   "exchange": "NYSE",
+   "market_cap": 94342910297.28877,
+   "rank": 130,
+   "tier": "other"
+  },
+  {
+   "ticker": "GD",
+   "tv_symbol": "NYSE:GD",
+   "name": "General Dynamics Corporation",
+   "exchange": "NYSE",
+   "market_cap": 93477140865.05637,
+   "rank": 131,
+   "tier": "other"
+  },
+  {
+   "ticker": "BN",
+   "tv_symbol": "NYSE:BN",
+   "name": "Brookfield Corporation",
+   "exchange": "NYSE",
+   "market_cap": 93244567078.79779,
+   "rank": 132,
+   "tier": "other"
+  },
+  {
+   "ticker": "NOW",
+   "tv_symbol": "NYSE:NOW",
+   "name": "ServiceNow, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 93187594680.06819,
+   "rank": 133,
+   "tier": "other"
+  },
+  {
+   "ticker": "MMM",
+   "tv_symbol": "NYSE:MMM",
+   "name": "3M Company",
+   "exchange": "NYSE",
+   "market_cap": 92745204494.10597,
+   "rank": 134,
+   "tier": "other"
+  },
+  {
+   "ticker": "FTNT",
+   "tv_symbol": "NASDAQ:FTNT",
+   "name": "Fortinet, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 92536701244.37585,
+   "rank": 135,
+   "tier": "other"
+  },
+  {
+   "ticker": "CSX",
+   "tv_symbol": "NASDAQ:CSX",
+   "name": "CSX Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 91773578215.58823,
+   "rank": 136,
+   "tier": "other"
+  },
+  {
+   "ticker": "UPS",
+   "tv_symbol": "NYSE:UPS",
+   "name": "United Parcel Service, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 91286026801.20676,
+   "rank": 137,
+   "tier": "other"
+  },
+  {
+   "ticker": "SNOW",
+   "tv_symbol": "NYSE:SNOW",
+   "name": "Snowflake Inc.",
+   "exchange": "NYSE",
+   "market_cap": 90599035629.64818,
+   "rank": 138,
+   "tier": "other"
+  },
+  {
+   "ticker": "CMCSA",
+   "tv_symbol": "NASDAQ:CMCSA",
+   "name": "Comcast Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 89005977268.14824,
+   "rank": 139,
+   "tier": "other"
+  },
+  {
+   "ticker": "USB",
+   "tv_symbol": "NYSE:USB",
+   "name": "U.S. Bancorp",
+   "exchange": "NYSE",
+   "market_cap": 88786738371.34473,
+   "rank": 140,
+   "tier": "other"
+  },
+  {
+   "ticker": "CTAS",
+   "tv_symbol": "NASDAQ:CTAS",
+   "name": "Cintas Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 88641060046.39221,
+   "rank": 141,
+   "tier": "other"
+  },
+  {
+   "ticker": "ELV",
+   "tv_symbol": "NYSE:ELV",
+   "name": "Elevance Health, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 86804776922.61671,
+   "rank": 142,
+   "tier": "other"
+  },
+  {
+   "ticker": "MSI",
+   "tv_symbol": "NYSE:MSI",
+   "name": "Motorola Solutions, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 86462207028.84665,
+   "rank": 143,
+   "tier": "other"
+  },
+  {
+   "ticker": "ADBE",
+   "tv_symbol": "NASDAQ:ADBE",
+   "name": "Adobe Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 86460779854.69258,
+   "rank": 144,
+   "tier": "other"
+  },
+  {
+   "ticker": "MNST",
+   "tv_symbol": "NASDAQ:MNST",
+   "name": "Monster Beverage Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 86091368068.18524,
+   "rank": 145,
+   "tier": "other"
+  },
+  {
+   "ticker": "AMT",
+   "tv_symbol": "NYSE:AMT",
+   "name": "American Tower Corporation (REIT)",
+   "exchange": "NYSE",
+   "market_cap": 85921469977.82826,
+   "rank": 146,
+   "tier": "other"
+  },
+  {
+   "ticker": "PNC",
+   "tv_symbol": "NYSE:PNC",
+   "name": "PNC Financial Services Group, Inc. (The)",
+   "exchange": "NYSE",
+   "market_cap": 85878633596.38533,
+   "rank": 147,
+   "tier": "other"
+  },
+  {
+   "ticker": "CEG",
+   "tv_symbol": "NASDAQ:CEG",
+   "name": "Constellation Energy Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 85877020662.67697,
+   "rank": 148,
+   "tier": "other"
+  },
+  {
+   "ticker": "TT",
+   "tv_symbol": "NYSE:TT",
+   "name": "Trane Technologies plc",
+   "exchange": "NYSE",
+   "market_cap": 85345101247.15157,
+   "rank": 149,
+   "tier": "other"
+  },
+  {
+   "ticker": "MDLZ",
+   "tv_symbol": "NASDAQ:MDLZ",
+   "name": "Mondelez International, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 84349143513.52771,
+   "rank": 150,
+   "tier": "other"
+  },
+  {
+   "ticker": "PWR",
+   "tv_symbol": "NYSE:PWR",
+   "name": "Quanta Services, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 84243587522.35587,
+   "rank": 151,
+   "tier": "other"
+  },
+  {
+   "ticker": "EMR",
+   "tv_symbol": "NYSE:EMR",
+   "name": "Emerson Electric Company",
+   "exchange": "NYSE",
+   "market_cap": 83724588516.78372,
+   "rank": 152,
+   "tier": "other"
+  },
+  {
+   "ticker": "HWM",
+   "tv_symbol": "NYSE:HWM",
+   "name": "Howmet Aerospace Inc.",
+   "exchange": "NYSE",
+   "market_cap": 83600164519.4746,
+   "rank": 153,
+   "tier": "other"
+  },
+  {
+   "ticker": "ECL",
+   "tv_symbol": "NYSE:ECL",
+   "name": "Ecolab Inc.",
+   "exchange": "NYSE",
+   "market_cap": 83350817302.65305,
+   "rank": 154,
+   "tier": "other"
+  },
+  {
+   "ticker": "SHW",
+   "tv_symbol": "NYSE:SHW",
+   "name": "Sherwin-Williams Company (The)",
+   "exchange": "NYSE",
+   "market_cap": 82672643504.43945,
+   "rank": 155,
+   "tier": "other"
+  },
+  {
+   "ticker": "GLW",
+   "tv_symbol": "NYSE:GLW",
+   "name": "Corning Incorporated",
+   "exchange": "NYSE",
+   "market_cap": 82375790346.0737,
+   "rank": 156,
+   "tier": "other"
+  },
+  {
+   "ticker": "TRV",
+   "tv_symbol": "NYSE:TRV",
+   "name": "The Travelers Companies, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 81537902329.0712,
+   "rank": 157,
+   "tier": "other"
+  },
+  {
+   "ticker": "MCO",
+   "tv_symbol": "NYSE:MCO",
+   "name": "Moody's Corporation",
+   "exchange": "NYSE",
+   "market_cap": 81436584485.05624,
+   "rank": 158,
+   "tier": "other"
+  },
+  {
+   "ticker": "WMB",
+   "tv_symbol": "NYSE:WMB",
+   "name": "Williams Companies, Inc. (The)",
+   "exchange": "NYSE",
+   "market_cap": 81244407040.17996,
+   "rank": 159,
+   "tier": "other"
+  },
+  {
+   "ticker": "RCL",
+   "tv_symbol": "NYSE:RCL",
+   "name": "Royal Caribbean Cruises Ltd.",
+   "exchange": "NYSE",
+   "market_cap": 80171740119.18834,
+   "rank": 160,
+   "tier": "other"
+  },
+  {
+   "ticker": "KKR",
+   "tv_symbol": "NYSE:KKR",
+   "name": "KKR & Co. Inc.",
+   "exchange": "NYSE",
+   "market_cap": 80015997208.63487,
+   "rank": 161,
+   "tier": "other"
+  },
+  {
+   "ticker": "HLT",
+   "tv_symbol": "NASDAQ:HLT",
+   "name": "Hilton Worldwide Holdings Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 79711073200.32478,
+   "rank": 162,
+   "tier": "other"
+  },
+  {
+   "ticker": "BAM",
+   "tv_symbol": "NYSE:BAM",
+   "name": "Brookfield Asset Management Inc",
+   "exchange": "NYSE",
+   "market_cap": 78903223513.66362,
+   "rank": 163,
+   "tier": "other"
+  },
+  {
+   "ticker": "CL",
+   "tv_symbol": "NYSE:CL",
+   "name": "Colgate-Palmolive Company",
+   "exchange": "NYSE",
+   "market_cap": 78760718053.0479,
+   "rank": 164,
+   "tier": "other"
+  },
+  {
+   "ticker": "CDNS",
+   "tv_symbol": "NASDAQ:CDNS",
+   "name": "Cadence Design Systems, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 78604096549.56444,
+   "rank": 165,
+   "tier": "other"
+  },
+  {
+   "ticker": "ITW",
+   "tv_symbol": "NYSE:ITW",
+   "name": "Illinois Tool Works Inc.",
+   "exchange": "NYSE",
+   "market_cap": 78530151527.47215,
+   "rank": 166,
+   "tier": "other"
+  },
+  {
+   "ticker": "JCI",
+   "tv_symbol": "NYSE:JCI",
+   "name": "Johnson Controls International plc",
+   "exchange": "NYSE",
+   "market_cap": 78194025783.66148,
+   "rank": 167,
+   "tier": "other"
+  },
+  {
+   "ticker": "MRNA",
+   "tv_symbol": "NASDAQ:MRNA",
+   "name": "Moderna, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 78178841761.44377,
+   "rank": 168,
+   "tier": "other"
+  },
+  {
+   "ticker": "EOG",
+   "tv_symbol": "NYSE:EOG",
+   "name": "EOG Resources, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 78151125115.5704,
+   "rank": 169,
+   "tier": "other"
+  },
+  {
+   "ticker": "EPD",
+   "tv_symbol": "NYSE:EPD",
+   "name": "Enterprise Products Partners L.P.",
+   "exchange": "NYSE",
+   "market_cap": 77637770180.6416,
+   "rank": 170,
+   "tier": "other"
+  },
+  {
+   "ticker": "SNPS",
+   "tv_symbol": "NASDAQ:SNPS",
+   "name": "Synopsys, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 77014934525.19003,
+   "rank": 171,
+   "tier": "other"
+  },
+  {
+   "ticker": "NOC",
+   "tv_symbol": "NYSE:NOC",
+   "name": "Northrop Grumman Corporation",
+   "exchange": "NYSE",
+   "market_cap": 76791521435.63756,
+   "rank": 172,
+   "tier": "other"
+  },
+  {
+   "ticker": "NTES",
+   "tv_symbol": "NASDAQ:NTES",
+   "name": "NetEase, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 75864465973.23065,
+   "rank": 173,
+   "tier": "other"
+  },
+  {
+   "ticker": "RSG",
+   "tv_symbol": "NYSE:RSG",
+   "name": "Republic Services, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 75687722341.24568,
+   "rank": 174,
+   "tier": "other"
+  },
+  {
+   "ticker": "TGT",
+   "tv_symbol": "NYSE:TGT",
+   "name": "Target Corporation",
+   "exchange": "NYSE",
+   "market_cap": 75620266466.96423,
+   "rank": 175,
+   "tier": "other"
+  },
+  {
+   "ticker": "ORLY",
+   "tv_symbol": "NASDAQ:ORLY",
+   "name": "O'Reilly Automotive, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 74935416803.35062,
+   "rank": 176,
+   "tier": "other"
+  },
+  {
+   "ticker": "INTU",
+   "tv_symbol": "NASDAQ:INTU",
+   "name": "Intuit Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 73671615783.07155,
+   "rank": 177,
+   "tier": "other"
+  },
+  {
+   "ticker": "SPG",
+   "tv_symbol": "NYSE:SPG",
+   "name": "Simon Property Group, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 73320008910.44064,
+   "rank": 178,
+   "tier": "other"
+  },
+  {
+   "ticker": "CI",
+   "tv_symbol": "NYSE:CI",
+   "name": "The Cigna Group",
+   "exchange": "NYSE",
+   "market_cap": 72787315386.79346,
+   "rank": 179,
+   "tier": "other"
+  },
+  {
+   "ticker": "AJG",
+   "tv_symbol": "NYSE:AJG",
+   "name": "Arthur J. Gallagher & Co.",
+   "exchange": "NYSE",
+   "market_cap": 72411203003.11725,
+   "rank": 180,
+   "tier": "other"
+  },
+  {
+   "ticker": "FDX",
+   "tv_symbol": "NYSE:FDX",
+   "name": "FedEx Corporation",
+   "exchange": "NYSE",
+   "market_cap": 71830116850.00328,
+   "rank": 181,
+   "tier": "other"
+  },
+  {
+   "ticker": "AON",
+   "tv_symbol": "NYSE:AON",
+   "name": "Aon plc",
+   "exchange": "NYSE",
+   "market_cap": 71415281903.72856,
+   "rank": 182,
+   "tier": "other"
+  },
+  {
+   "ticker": "CVNA",
+   "tv_symbol": "NYSE:CVNA",
+   "name": "Carvana Co.",
+   "exchange": "NYSE",
+   "market_cap": 71292732289.60236,
+   "rank": 183,
+   "tier": "other"
+  },
+  {
+   "ticker": "NSC",
+   "tv_symbol": "NYSE:NSC",
+   "name": "Norfolk Southern Corporation",
+   "exchange": "NYSE",
+   "market_cap": 70868811594.21143,
+   "rank": 184,
+   "tier": "other"
+  },
+  {
+   "ticker": "MELI",
+   "tv_symbol": "NASDAQ:MELI",
+   "name": "MercadoLibre, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 69567416196.76535,
+   "rank": 185,
+   "tier": "other"
+  },
+  {
+   "ticker": "ROST",
+   "tv_symbol": "NASDAQ:ROST",
+   "name": "Ross Stores, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 69190353880.40819,
+   "rank": 186,
+   "tier": "other"
+  },
+  {
+   "ticker": "AEP",
+   "tv_symbol": "NASDAQ:AEP",
+   "name": "American Electric Power Company, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 69059549452.78569,
+   "rank": 187,
+   "tier": "other"
+  },
+  {
+   "ticker": "SLB",
+   "tv_symbol": "NYSE:SLB",
+   "name": "SLB Limited",
+   "exchange": "NYSE",
+   "market_cap": 68546819737.2476,
+   "rank": 188,
+   "tier": "other"
+  },
+  {
+   "ticker": "HON",
+   "tv_symbol": "NASDAQ:HON",
+   "name": "Honeywell International Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 68376478886.315544,
+   "rank": 189,
+   "tier": "other"
+  },
+  {
+   "ticker": "KMI",
+   "tv_symbol": "NYSE:KMI",
+   "name": "Kinder Morgan, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 68335168145.6666,
+   "rank": 190,
+   "tier": "other"
+  },
+  {
+   "ticker": "DASH",
+   "tv_symbol": "NASDAQ:DASH",
+   "name": "DoorDash, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 68095195182.74003,
+   "rank": 191,
+   "tier": "other"
+  },
+  {
+   "ticker": "ALL",
+   "tv_symbol": "NYSE:ALL",
+   "name": "Allstate Corporation (The)",
+   "exchange": "NYSE",
+   "market_cap": 67053860962.34674,
+   "rank": 192,
+   "tier": "other"
+  },
+  {
+   "ticker": "APD",
+   "tv_symbol": "NYSE:APD",
+   "name": "Air Products and Chemicals, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 66692086916.495056,
+   "rank": 193,
+   "tier": "other"
+  },
+  {
+   "ticker": "APO",
+   "tv_symbol": "NYSE:APO",
+   "name": "Apollo Global Management, Inc. (New)",
+   "exchange": "NYSE",
+   "market_cap": 66518132300.27825,
+   "rank": 194,
+   "tier": "other"
+  },
+  {
+   "ticker": "FCX",
+   "tv_symbol": "NYSE:FCX",
+   "name": "Freeport-McMoRan, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 66107501701.95399,
+   "rank": 195,
+   "tier": "other"
+  },
+  {
+   "ticker": "KMB",
+   "tv_symbol": "NASDAQ:KMB",
+   "name": "Kimberly-Clark Corporation",
+   "exchange": "NASDAQ",
+   "market_cap": 66068282041.05559,
+   "rank": 196,
+   "tier": "other"
+  },
+  {
+   "ticker": "COR",
+   "tv_symbol": "NYSE:COR",
+   "name": "Cencora, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 65167481612.738464,
+   "rank": 197,
+   "tier": "other"
+  },
+  {
+   "ticker": "ET",
+   "tv_symbol": "AMEX:ET",
+   "name": "Energy Transfer LP",
+   "exchange": "AMEX",
+   "market_cap": 64816984451.03343,
+   "rank": 198,
+   "tier": "other"
+  },
+  {
+   "ticker": "GWW",
+   "tv_symbol": "NYSE:GWW",
+   "name": "W.W. Grainger, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 64590416430.45826,
+   "rank": 199,
+   "tier": "other"
+  },
+  {
+   "ticker": "VRT",
+   "tv_symbol": "NYSE:VRT",
+   "name": "Vertiv Holdings, LLC",
+   "exchange": "NYSE",
+   "market_cap": 64118333458.33726,
+   "rank": 200,
+   "tier": "other"
+  },
+  {
+   "ticker": "CAH",
+   "tv_symbol": "NYSE:CAH",
+   "name": "Cardinal Health, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 63496706070.6945,
+   "rank": 201,
+   "tier": "other"
+  },
+  {
+   "ticker": "DLR",
+   "tv_symbol": "NYSE:DLR",
+   "name": "Digital Realty Trust, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 62892893623.83267,
+   "rank": 202,
+   "tier": "other"
+  },
+  {
+   "ticker": "AFL",
+   "tv_symbol": "NYSE:AFL",
+   "name": "AFLAC Incorporated",
+   "exchange": "NYSE",
+   "market_cap": 62226514738.33769,
+   "rank": 203,
+   "tier": "other"
+  },
+  {
+   "ticker": "TDG",
+   "tv_symbol": "NYSE:TDG",
+   "name": "Transdigm Group Inc.",
+   "exchange": "NYSE",
+   "market_cap": 62110133253.4096,
+   "rank": 204,
+   "tier": "other"
+  },
+  {
+   "ticker": "BSX",
+   "tv_symbol": "NYSE:BSX",
+   "name": "Boston Scientific Corporation",
+   "exchange": "NYSE",
+   "market_cap": 61667842535.1798,
+   "rank": 205,
+   "tier": "other"
+  },
+  {
+   "ticker": "PSA",
+   "tv_symbol": "NYSE:PSA",
+   "name": "Public Storage",
+   "exchange": "NYSE",
+   "market_cap": 61474299870.8417,
+   "rank": 206,
+   "tier": "other"
+  },
+  {
+   "ticker": "NXPI",
+   "tv_symbol": "NASDAQ:NXPI",
+   "name": "NXP Semiconductors N.V.",
+   "exchange": "NASDAQ",
+   "market_cap": 61291721448.77577,
+   "rank": 207,
+   "tier": "other"
+  },
+  {
+   "ticker": "URI",
+   "tv_symbol": "NYSE:URI",
+   "name": "United Rentals, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 61283188301.15489,
+   "rank": 208,
+   "tier": "other"
+  },
+  {
+   "ticker": "MET",
+   "tv_symbol": "NYSE:MET",
+   "name": "MetLife, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 61046868395.73259,
+   "rank": 209,
+   "tier": "other"
+  },
+  {
+   "ticker": "LNG",
+   "tv_symbol": "NYSE:LNG",
+   "name": "Cheniere Energy, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 60540330180.80634,
+   "rank": 210,
+   "tier": "other"
+  },
+  {
+   "ticker": "TRGP",
+   "tv_symbol": "NYSE:TRGP",
+   "name": "Targa Resources, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 60413049929.2341,
+   "rank": 211,
+   "tier": "other"
+  },
+  {
+   "ticker": "CRH",
+   "tv_symbol": "NYSE:CRH",
+   "name": "CRH PLC",
+   "exchange": "NYSE",
+   "market_cap": 59568090253.2538,
+   "rank": 212,
+   "tier": "other"
+  },
+  {
+   "ticker": "EW",
+   "tv_symbol": "NYSE:EW",
+   "name": "Edwards Lifesciences Corporation",
+   "exchange": "NYSE",
+   "market_cap": 59245123433.84419,
+   "rank": 213,
+   "tier": "other"
+  },
+  {
+   "ticker": "FAST",
+   "tv_symbol": "NASDAQ:FAST",
+   "name": "Fastenal Company",
+   "exchange": "NASDAQ",
+   "market_cap": 59103237818.837326,
+   "rank": 214,
+   "tier": "other"
+  },
+  {
+   "ticker": "D",
+   "tv_symbol": "NYSE:D",
+   "name": "Dominion Energy, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 59040871789.58551,
+   "rank": 215,
+   "tier": "other"
+  },
+  {
+   "ticker": "BDX",
+   "tv_symbol": "NYSE:BDX",
+   "name": "Becton, Dickinson and Company",
+   "exchange": "NYSE",
+   "market_cap": 58337081153.37314,
+   "rank": 216,
+   "tier": "other"
+  },
+  {
+   "ticker": "TEL",
+   "tv_symbol": "NYSE:TEL",
+   "name": "TE Connectivity plc",
+   "exchange": "NYSE",
+   "market_cap": 58191939544.6855,
+   "rank": 217,
+   "tier": "other"
+  },
+  {
+   "ticker": "DDOG",
+   "tv_symbol": "NASDAQ:DDOG",
+   "name": "Datadog, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 58111583260.46592,
+   "rank": 218,
+   "tier": "other"
+  },
+  {
+   "ticker": "NDAQ",
+   "tv_symbol": "NASDAQ:NDAQ",
+   "name": "Nasdaq, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 57643981077.818756,
+   "rank": 219,
+   "tier": "other"
+  },
+  {
+   "ticker": "HOOD",
+   "tv_symbol": "NASDAQ:HOOD",
+   "name": "Robinhood Markets, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 56960574390.54013,
+   "rank": 220,
+   "tier": "other"
+  },
+  {
+   "ticker": "MPWR",
+   "tv_symbol": "NASDAQ:MPWR",
+   "name": "Monolithic Power Systems, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 56919084692.67011,
+   "rank": 221,
+   "tier": "other"
+  },
+  {
+   "ticker": "MPLX",
+   "tv_symbol": "NYSE:MPLX",
+   "name": "MPLX LP",
+   "exchange": "NYSE",
+   "market_cap": 56820688281.533195,
+   "rank": 222,
+   "tier": "other"
+  },
+  {
+   "ticker": "TFC",
+   "tv_symbol": "NYSE:TFC",
+   "name": "Truist Financial Corporation",
+   "exchange": "NYSE",
+   "market_cap": 55663791707.835014,
+   "rank": 223,
+   "tier": "other"
+  },
+  {
+   "ticker": "NU",
+   "tv_symbol": "NYSE:NU",
+   "name": "Nu Holdings Ltd.",
+   "exchange": "NYSE",
+   "market_cap": 55501373867.52424,
+   "rank": 224,
+   "tier": "other"
+  },
+  {
+   "ticker": "CMI",
+   "tv_symbol": "NYSE:CMI",
+   "name": "Cummins Inc.",
+   "exchange": "NYSE",
+   "market_cap": 55419908332.64631,
+   "rank": 225,
+   "tier": "other"
+  },
+  {
+   "ticker": "HPE",
+   "tv_symbol": "NYSE:HPE",
+   "name": "Hewlett Packard Enterprise Company",
+   "exchange": "NYSE",
+   "market_cap": 55315456993.10596,
+   "rank": 226,
+   "tier": "other"
+  },
+  {
+   "ticker": "O",
+   "tv_symbol": "NYSE:O",
+   "name": "Realty Income Corporation",
+   "exchange": "NYSE",
+   "market_cap": 55288116530.33772,
+   "rank": 227,
+   "tier": "other"
+  },
+  {
+   "ticker": "PCAR",
+   "tv_symbol": "NASDAQ:PCAR",
+   "name": "PACCAR Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 54240577836.91714,
+   "rank": 228,
+   "tier": "other"
+  },
+  {
+   "ticker": "OXY",
+   "tv_symbol": "NYSE:OXY",
+   "name": "Occidental Petroleum Corporation",
+   "exchange": "NYSE",
+   "market_cap": 54119306099.28684,
+   "rank": 229,
+   "tier": "other"
+  },
+  {
+   "ticker": "NUE",
+   "tv_symbol": "NYSE:NUE",
+   "name": "Nucor Corporation",
+   "exchange": "NYSE",
+   "market_cap": 54081075291.36507,
+   "rank": 230,
+   "tier": "other"
+  },
+  {
+   "ticker": "OKE",
+   "tv_symbol": "NYSE:OKE",
+   "name": "ONEOK, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 53859378952.66008,
+   "rank": 231,
+   "tier": "other"
+  },
+  {
+   "ticker": "IDXX",
+   "tv_symbol": "NASDAQ:IDXX",
+   "name": "IDEXX Laboratories, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 53838988324.928696,
+   "rank": 232,
+   "tier": "other"
+  },
+  {
+   "ticker": "DAL",
+   "tv_symbol": "NYSE:DAL",
+   "name": "Delta Air Lines, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 53248135159.27132,
+   "rank": 233,
+   "tier": "other"
+  },
+  {
+   "ticker": "AZO",
+   "tv_symbol": "NYSE:AZO",
+   "name": "AutoZone, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 53063283659.88363,
+   "rank": 234,
+   "tier": "other"
+  },
+  {
+   "ticker": "GRMN",
+   "tv_symbol": "NYSE:GRMN",
+   "name": "Garmin Ltd.",
+   "exchange": "NYSE",
+   "market_cap": 52065305604.244446,
+   "rank": 235,
+   "tier": "other"
+  },
+  {
+   "ticker": "EBAY",
+   "tv_symbol": "NASDAQ:EBAY",
+   "name": "eBay Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 51692250538.42348,
+   "rank": 236,
+   "tier": "other"
+  },
+  {
+   "ticker": "AME",
+   "tv_symbol": "NYSE:AME",
+   "name": "AMETEK, Inc.",
+   "exchange": "NYSE",
+   "market_cap": 51579348250.25308,
+   "rank": 237,
+   "tier": "other"
+  },
+  {
+   "ticker": "ADSK",
+   "tv_symbol": "NASDAQ:ADSK",
+   "name": "Autodesk, Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 51541489353.71871,
+   "rank": 238,
+   "tier": "other"
+  },
+  {
+   "ticker": "XEL",
+   "tv_symbol": "NASDAQ:XEL",
+   "name": "Xcel Energy Inc.",
+   "exchange": "NASDAQ",
+   "market_cap": 51507214701.984406,
+   "rank": 239,
+   "tier": "other"
+  },
+  {
+   "ticker": "CCEP",
+   "tv_symbol": "NASDAQ:CCEP",
+   "name": "Coca-Cola Europacific Partners plc",
+   "exchange": "NASDAQ",
+   "market_cap": 50746186306.21228,
+   "rank": 240,
+   "tier": "other"
+  },
+  {
+   "ticker": "SRE",
+   "tv_symbol": "NYSE:SRE",
+   "name": "DBA Sempra",
+   "exchange": "NYSE",
+   "market_cap": 50539961797.46638,
+   "rank": 241,
+   "tier": "other"
+  },
+  {
+   "ticker": "ETR",
+   "tv_symbol": "NYSE:ETR",
+   "name": "Entergy Corporation",
+   "exchange": "NYSE",
+   "market_cap": 50525439594.50913,
+   "rank": 242,
+   "tier": "other"
+  }
+ ]
+}

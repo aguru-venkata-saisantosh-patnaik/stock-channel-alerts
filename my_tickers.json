@@ -1,0 +1,37 @@
+{
+ "GLLD": {
+  "name": "MicroSectors Gold 3X Leveraged ETN",
+  "kind": "EQUITY",
+  "exchange": "PCX"
+ },
+ "DISK": {
+  "name": "Tema Memory ETF",
+  "kind": "ETF",
+  "exchange": "PCX"
+ },
+ "QQQ": {
+  "name": "Invesco QQQ Trust",
+  "kind": "ETF",
+  "exchange": "NGM"
+ },
+ "GDXU": {
+  "name": "MicroSectors Gold Miners 3X Leveraged ETNs",
+  "kind": "ETF",
+  "exchange": "PCX"
+ },
+ "SOXX": {
+  "name": "iShares Semiconductor ETF",
+  "kind": "ETF",
+  "exchange": "NGM"
+ },
+ "SMH": {
+  "name": "VanEck Semiconductor ETF",
+  "kind": "ETF",
+  "exchange": "NGM"
+ },
+ "FNGD": {
+  "name": "MicroSectors FANG+ Index -3X Inverse Leveraged ETN",
+  "kind": "ETF",
+  "exchange": "PCX"
+ }
+}

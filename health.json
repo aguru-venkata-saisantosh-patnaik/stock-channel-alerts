@@ -1,0 +1,54 @@
+{
+ "status": "ok",
+ "checked_at": "2026-11-20T20:40:20+00:00",
+ "checks": [
+  {
+   "id": "fresh",
+   "label": "Price data is fresh",
+   "status": "ok",
+   "detail": "newest bar 2026-11-20, expected 2026-11-20"
+  },
+  {
+   "id": "count",
+   "label": "Enough stocks scanned",
+   "status": "ok",
+   "detail": "242 watchlist stocks (minimum 200); all 8 of your tickers present"
+  },
+  {
+   "id": "prices",
+   "label": "Prices downloaded",
+   "status": "ok",
+   "detail": "0 of 249 tickers without a 2026-11-20 price"
+  },
+  {
+   "id": "math",
+   "label": "Channel math sane",
+   "status": "ok",
+   "detail": "all channels finite with \u03c3 > 0"
+  },
+  {
+   "id": "known",
+   "label": "Known answer still right",
+   "status": "ok",
+   "detail": "MSFT reproduces the video's trade (2026-03-27 -3.36\u03c3, 2026-08-03 +0.20\u03c3)"
+  },
+  {
+   "id": "charts",
+   "label": "Charts written",
+   "status": "ok",
+   "detail": "247 chart files"
+  },
+  {
+   "id": "alerts",
+   "label": "Alert channels",
+   "status": "ok",
+   "detail": "configured: email, telegram"
+  },
+  {
+   "id": "universe",
+   "label": "Watchlist fresh",
+   "status": "ok",
+   "detail": "screener list is 0.0 days old"
+  }
+ ]
+}
