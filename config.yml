@@ -1,12 +1,27 @@
 # Strategy settings (from the Revelio Trading "standard deviation channel" video)
-length: 2500            # daily bars in the regression channel (~10 years)
-min_market_cap: 50000000000 # watchlist: US primary listings with market cap >= $50B
+length: 2500            # bars in the 10-year window (as in the video)
+bars_per_year: 252      # bars per year for the shorter windows
+windows_years: [10, 7, 5, 3, 1]   # every window is scanned; alerts fire on any of them
+
+min_market_cap: 50000000000  # watchlist: US primary listings with market cap >= $50B
 top_n: 10               # the top-N by market cap are "top tier" and buy at -3 sigma
 buy_sigma_top: 3        # top tier buys at or below -3 sigma
 buy_sigma_other: 4      # everyone else waits for -4 sigma
-near_sigma: 0.5         # "NEAR" = within this many sigma above the buy line
-rearm_sigma: 0.5        # a BUY alert re-arms only after price climbs this far back above the buy line
-tp_rearm_sigma: 0.5     # a TAKE-PROFIT alert re-arms after price falls this far back below the regression line
+
+# Your own tickers: always scanned, use the longest window they have data for,
+# and alert at every level listed here.
+my_tickers: [GLLD, DISK, QQQ, GDXU, SOXX, SMH, FNGD, PLTR]
+my_buy_levels: [-3, -4]
+
+near_sigma: 0.5         # "NEAR" = within this many sigma above the (shallowest) buy line
+rearm_sigma: 0.5        # a buy alert re-arms only after price climbs this far back above its line
+tp_rearm_sigma: 0.5     # a take-profit alert re-arms after price falls this far back below the regression line
 recheck_days: 90        # remind to re-run the fundamental check on each holding this often
 universe_max_age_days: 7
 post_close_minutes: 30  # keep scanning this long after the close to capture the final bar
+daily_summary: true     # one Telegram/email summary after each US close (a daily "all is well" heartbeat)
+
+health:
+  min_stocks: 200       # fewer watchlist stocks than this = screener problem
+  max_missing_pct: 5    # more tickers than this without today's price = data problem
+  universe_fail_days: 10

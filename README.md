@@ -67,7 +67,33 @@ cp site/* out/ && python3 -m http.server 8765 --directory out
 ```
 
 ## Settings
-`config.yml` holds the channel length, σ levels, the "near" band, the market-cap minimum, the top-N tier size and the re-check interval.
+`config.yml` holds:
+- the lookback windows (`windows_years`)
+- the σ levels and the "near" band
+- the market-cap minimum and the top-N tier size
+- the re-check interval
+- **your own tickers** (`my_tickers`) and their alert levels (`my_buy_levels`)
+
+To add or remove a ticker, edit `my_tickers` and push.
+
+**Windows and alerts:**
+- Every ticker is scanned on its 10, 7, 5, 3 and 1-year channels.
+- A buy alert fires when the price is at or below a buy line on **any** of them.
+- Alerts are tracked separately for each ticker, window and level, and re-arm after the price climbs 0.5σ back above that line.
+- Watchlist stocks need 10 years of history to qualify, as in the video.
+- Your tickers use the longest window they have data for.
+
+**Dashboard lookback buttons:** *Main · 10y · 7y · 5y · 3y · 1y*. They recalculate the lines and the table instantly in your browser.
+
+## Is everything working?
+- **Health bar at the top of the dashboard:**
+  - Green means all checks pass.
+  - Amber or red names the problem. Open **Details** for the full list: fresh prices, stock count, missing prices, channel math, the MSFT known answer, chart files, alert channels and screener age.
+  - It turns red if no scan has run for 60 minutes during market hours.
+- **Failure alerts:** any failing check sends one Telegram/email alert per day, and an "all clear" when it recovers.
+- **Daily summary:** one message after each US close. **If it doesn't arrive, something is wrong.**
+- **Fire drill:** run **Actions → scan → Run workflow** with `simulate = stale`. You should get a red health bar and one failure alert. The next normal run sends the all-clear.
+- **GitHub emails:** keep the email for failed workflow runs turned on (GitHub → Settings → Notifications → Actions).
 
 ## Limits
 - GitHub can start scheduled runs 5–15 minutes late.

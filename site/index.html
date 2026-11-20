@@ -14,10 +14,14 @@
   <header class="top">
     <div class="brand">
       <h1>Sigma Channel Watch</h1>
-      <p class="sub">US stocks ≥ $50B · 2,500-day standard-deviation channel · buy at −3σ (top 10) or −4σ (others), take profit at the regression line</p>
+      <p class="sub">US stocks ≥ $50B plus your tickers · standard-deviation channels over 1–10 years · buy at −3σ (top 10) or −4σ (others), yours at both · take profit at the regression line</p>
     </div>
     <div class="meta" id="meta" aria-live="polite">Loading the latest scan…</div>
   </header>
+
+  <section class="health" id="health" aria-label="System health" aria-live="polite"></section>
+
+  <div class="lookback" id="lookback" role="group" aria-label="Channel lookback"></div>
 
   <section class="summary" id="summary" aria-label="Signal counts"></section>
 
@@ -34,6 +38,7 @@
     </div>
     <dl class="facts" id="facts"></dl>
     <div class="chart" id="chart" role="img" aria-label="Price with standard-deviation channel"></div>
+    <p class="chart-note" id="chart-note"></p>
     <div class="legend">
       <span><i class="sw price"></i>Close</span>
       <span><i class="sw reg"></i>Regression (take profit)</span>
@@ -79,6 +84,8 @@
     load: () => fetch("signals.json?t=" + Date.now()).then(r => { if (!r.ok) throw new Error("signals.json " + r.status); return r.json(); }),
     loadChart: t => fetch("charts/" + encodeURIComponent(t) + ".json?t=" + Date.now()).then(r => r.ok ? r.json() : null),
     refreshMs: 10 * 60 * 1000,
+    staleCheck: true,
+    noChartText: "No price history for this ticker yet.",
   });
 </script>
 </body>

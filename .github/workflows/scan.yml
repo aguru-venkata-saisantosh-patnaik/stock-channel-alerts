@@ -15,6 +15,11 @@ on:
         description: "Send a test message to every configured alert channel"
         type: boolean
         default: false
+      simulate:
+        description: "Health-check drill: 'stale' pretends prices are 3 days old (expect a red health bar + one failure alert; the next normal run sends an all-clear)"
+        type: choice
+        options: [none, stale]
+        default: none
 
 permissions:
   contents: write
@@ -58,7 +63,7 @@ jobs:
         run: |
           mkdir -p out
           if git fetch --depth=1 origin gh-pages 2>/dev/null; then
-            for f in state.json universe.json; do
+            for f in state.json universe.json my_tickers.json; do
               git show "FETCH_HEAD:$f" > "out/$f" 2>/dev/null || rm -f "out/$f"
             done
           fi
@@ -74,7 +79,9 @@ jobs:
         id: scan
         run: |
           echo "stamp_before=$(cat .cache/prices.day 2>/dev/null)" >> "$GITHUB_OUTPUT"
-          python -m engine.run --out out ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '--force' || '' }}
+          python -m engine.run --out out \
+            ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '--force' || '' }} \
+            ${{ (github.event_name == 'workflow_dispatch' && inputs.simulate == 'stale') && '--simulate stale' || '' }}
           echo "stamp_after=$(cat .cache/prices.day 2>/dev/null)" >> "$GITHUB_OUTPUT"
 
       - name: Save price cache (once per day, after the full download)

@@ -9,10 +9,14 @@
   <header class="top">
     <div class="brand">
       <h1>Sigma Channel Watch</h1>
-      <p class="sub">US stocks ≥ $50B · 2,500-day standard-deviation channel · buy at −3σ (top 10) or −4σ (others), take profit at the regression line</p>
+      <p class="sub">US stocks ≥ $50B plus your tickers · standard-deviation channels over 1–10 years · buy at −3σ (top 10) or −4σ (others), yours at both · take profit at the regression line</p>
     </div>
     <div class="meta" id="meta" aria-live="polite">Loading the latest stored scan…</div>
   </header>
+
+  <section class="health" id="health" aria-label="System health" aria-live="polite"></section>
+
+  <div class="lookback" id="lookback" role="group" aria-label="Channel lookback"></div>
 
   <section class="summary" id="summary" aria-label="Signal counts"></section>
 
@@ -28,9 +32,10 @@
       </div>
     </div>
     <dl class="facts" id="facts"></dl>
-    <div class="chart" id="chart" role="img" aria-label="Weekly price with standard-deviation channel"></div>
+    <div class="chart" id="chart" role="img" aria-label="Price with standard-deviation channel"></div>
+    <p class="chart-note" id="chart-note"></p>
     <div class="legend">
-      <span><i class="sw price"></i>Weekly close</span>
+      <span><i class="sw price"></i>Close</span>
       <span><i class="sw reg"></i>Regression (take profit)</span>
       <span><i class="sw up"></i>+1σ / +2σ</span>
       <span><i class="sw m3"></i>−3σ</span>
@@ -74,28 +79,24 @@
 <script src="app.js"></script>
 <script>
 (function () {
-  let latest = null, resolveFirst, rejectFirst;
-  const first = new Promise((res, rej) => { resolveFirst = res; rejectFirst = rej; });
-  const timer = setTimeout(() => rejectFirst(new Error("no scan is stored yet, or the data can't be reached right now")), 10000);
-
+  // signals.json and charts.json are published beside this page by the daily refresh task
+  let bundle = null;
+  const getBundle = () => bundle || (bundle = fetch("charts.json").then(r => {
+    if (!r.ok) throw new Error("charts.json " + r.status);
+    return r.json();
+  }));
   SigmaApp.start({
-    load: () => latest ? Promise.resolve(latest) : first,
-    loadChart: t => Promise.resolve((latest && latest.series && latest.series[t]) || null),
-    noChartText: "This daily copy keeps charts only for the stocks closest to their buy line. Use the live dashboard or TradingView for this one.",
+    load: () => fetch("signals.json").then(r => { if (!r.ok) throw new Error("signals.json " + r.status); return r.json(); }),
+    loadChart: t => getBundle().then(b => {
+      const e = b[t];
+      if (!e) return null;
+      const d = [e.d0];
+      for (const x of e.dd) d.push(d[d.length - 1] + x);
+      return { d, c: e.c };
+    }),
+    noChartText: "No price history for this ticker yet.",
     refreshMs: 0,
+    staleCheck: false,
   });
-
-  (async () => {
-    const db = window.claude ? await window.claude.use("db") : null;
-    if (!db) { clearTimeout(timer); rejectFirst(new Error("stored data is not available in this view")); return; }
-    db.doc("feed/latest").onSnapshot(snap => {
-      if (!snap.exists) return;
-      const d = snap.data();
-      latest = Object.assign({}, d, { stocks: d.rows || [] });
-      clearTimeout(timer);
-      resolveFirst(latest);
-      SigmaApp.refresh();
-    }, err => { clearTimeout(timer); rejectFirst(new Error(err && err.message || "the data store is unavailable")); });
-  })();
 })();
 </script>
